@@ -27,15 +27,3 @@ plot(sub_hpc_data$DateTime, sub_hpc_data$Global_reactive_power, type="l", xlab =
 dev.copy(png, file = "./figure/plot4.png") ## Copy my plot to a PNG file
 dev.off() ## close the PNG device
 
-
-
-
-
-
-
-
-
-
-
-
-write.table(sub_hpc_data, "sub_hpc_data.csv", sep = ",", row.names = FALSE)

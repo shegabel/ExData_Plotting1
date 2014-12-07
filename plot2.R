@@ -10,3 +10,4 @@ plot(sub_hpc_data$DateTime, sub_hpc_data$Global_active_power,  type="l", xlab ="
 
 dev.copy(png, file = "./figure/plot2.png")  # Copy plot2.png to a PNG file and save it in figure folder
 dev.off() ## close the PNG device
+

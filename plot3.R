@@ -15,15 +15,3 @@ legend("topright",legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),l
 dev.copy(png, file = "./figure/plot3.png") # Copy plot3.png to a PNG file and save it in figure folder
 dev.off() ## close the PNG device
 
-
-
-
-
-
-
-
-
-
-
-
-write.table(sub_hpc_data, "sub_hpc_data.csv", sep = ",", row.names = FALSE)

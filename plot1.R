@@ -14,3 +14,4 @@ hist(sub_hpc_data$Global_active_power, main = "Global Active Power", xlab="Globa
 
 dev.copy(png, file = "./figure/plot1.png") ## Copy plot1.png to a PNG file and save it in figure folder
 dev.off() ## close the PNG device
+
