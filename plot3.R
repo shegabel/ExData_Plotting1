@@ -10,7 +10,7 @@ plot(sub_hpc_data$DateTime, sub_hpc_data$Sub_metering_1, type="l", xlab ="", yla
 
 lines(sub_hpc_data$DateTime, sub_hpc_data$Sub_metering_2,  type="l", xlab ="", ylab = "Energy sub metering", col = "red")
 lines(sub_hpc_data$DateTime, sub_hpc_data$Sub_metering_3,  type="l", xlab ="", ylab = "Energy sub metering", col = "blue")
-legend("topright",legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),lty=1,col=c("black","red","blue"), ncol=1, pt.cex=1, cex=0.5)
+legend("topright",legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),lty=1,col=c("black","red","blue"), ncol=1, pt.cex=1, cex=0.8)
 
 dev.copy(png, file = "./figure/plot3.png") # Copy plot3.png to a PNG file and save it in figure folder
 dev.off() ## close the PNG device
